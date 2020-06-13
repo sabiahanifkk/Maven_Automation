@@ -15,7 +15,8 @@ public class Yahoo_Page_Object_Search_Result extends Abstract_class {
         cars.add("Lexus");
         cars.add("Mercedes");
         cars.add("Ferrari");
-
+        cars.add("tesla");
+        
     for (int i = 0; i < cars.size(); i++) {
         logger.log(LogStatus.INFO, "Navigating to homepage");
         driver.navigate().to("https://www.yahoo.com");
